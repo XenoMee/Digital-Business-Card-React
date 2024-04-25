@@ -89,7 +89,13 @@ h6 {
 General
 */
 body {
-  /* background-color: var(--clr-body);
-  color: var(--clr-primary); */
+  background-color: var(--clr-body);
+  color: var(--clr-primary);
+  font-family: var(--ff-base);
+  font-size: var(--fs-100);
+  font-weight: var(--fw-regular);
   min-height: 100svh;
+
+  display: grid;
+  align-items: center;
 }
