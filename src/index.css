@@ -17,6 +17,13 @@
   --fw-regular: 400;
   --fw-medium: 500;
   --fw-bold: 700;
+
+  /* Font size */
+  --fs-100: 0.875rem;
+  --fs-200: 0.9375rem;
+  --fs-300: 1rem;
+  --fs-400: 1.25rem;
+  --fs-500: 1.5rem;
 }
 
 @media (prefers-color-scheme: light) {
