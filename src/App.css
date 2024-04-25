@@ -37,3 +37,18 @@
     --clr-accent-2: hsl(212, 78%, 53%);
   }
 }
+
+/* Typography */
+
+/* Layout */
+
+/* Utility classes */
+.flex-group {
+  display: flex;
+  align-items: center;
+}
+
+.grid-flow {
+  display: grid;
+  gap: 1rem;
+}
