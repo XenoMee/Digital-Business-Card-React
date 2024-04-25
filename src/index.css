@@ -14,9 +14,9 @@
   --ff-base: 'Inter', sans-serif;
 
   /* Font Weight */
-  /* --fw-regular: 400;
+  --fw-regular: 400;
   --fw-medium: 500;
-  --fw-bold: 700; */
+  --fw-bold: 700;
 }
 
 @media (prefers-color-scheme: light) {
