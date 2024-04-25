@@ -3,8 +3,12 @@ import profilePicture from '../images/profile-picture.png';
 
 const Info = () => (
   <div className='card-info'>
-    <img src={profilePicture} alt='User profile picture' />
-    <div>
+    <img
+      className='user-profile-picture'
+      src={profilePicture}
+      alt='User profile picture'
+    />
+    <div className='user-info'>
       <h1 className='user-name'>Adrian Trandafir</h1>
       <span className='user-job'>Web Developer</span>
       <a href='https://xenomee.github.io/adriantrandafir/'>

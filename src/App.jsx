@@ -6,7 +6,7 @@ import Footer from './components/Footer.jsx';
 import './App.css';
 
 const App = () => (
-  <div>
+  <div className='card'>
     <Info />
     <About />
     <Interests />
