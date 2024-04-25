@@ -1,3 +1,28 @@
+:root {
+  /* Colors */
+  --clr-body: hsl(227, 11%, 15%);
+  --clr-bg-content: hsl(231, 12%, 12%);
+  --clr-bg-footer: hsl(231, 7%, 9%);
+  --clr-bg-icon: hsl(254, 6%, 58%);
+  --clr-text: hsl(0, 0%, 86%);
+
+  --clr-primary: hsl(0, 0%, 100%);
+  --clr-accent-1: hsl(25, 79%, 78%);
+  --clr-accent-2: hsl(212, 72%, 60%);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-bg-content: hsl(0, 0%, 96%);
+    --clr-bg-footer: hsl(255, 5%, 84%);
+    --clr-text: hsl(224, 22%, 37%);
+
+    --clr-primary: hsl(250, 18%, 19%);
+    --clr-accent-1: hsl(25, 90%, 55%);
+    --clr-accent-2: hsl(212, 78%, 53%);
+  }
+}
+
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -50,17 +75,4 @@ General
 */
 body {
   min-height: 100svh;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }
