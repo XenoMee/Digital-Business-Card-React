@@ -1,1 +1,39 @@
+:root {
+  /* Colors */
+  --clr-body: hsl(227, 11%, 15%);
+  --clr-bg-content: hsl(231, 12%, 12%);
+  --clr-bg-footer: hsl(231, 7%, 9%);
+  --clr-bg-icon: hsl(254, 6%, 58%);
+  --clr-text: hsl(0, 0%, 86%);
 
+  --clr-primary: hsl(0, 0%, 100%);
+  --clr-accent-1: hsl(25, 79%, 78%);
+  --clr-accent-2: hsl(212, 72%, 60%);
+
+  /* Font Family */
+  --ff-base: 'Inter', sans-serif;
+
+  /* Font Weight */
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Font size */
+  --fs-100: 0.875rem;
+  --fs-200: 0.9375rem;
+  --fs-300: 1rem;
+  --fs-400: 1.25rem;
+  --fs-500: 1.5rem;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-bg-content: hsl(0, 0%, 96%);
+    --clr-bg-footer: hsl(255, 5%, 84%);
+    --clr-text: hsl(224, 22%, 37%);
+
+    --clr-primary: hsl(250, 18%, 19%);
+    --clr-accent-1: hsl(25, 90%, 55%);
+    --clr-accent-2: hsl(212, 78%, 53%);
+  }
+}
