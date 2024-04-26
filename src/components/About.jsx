@@ -2,12 +2,11 @@ import React from 'react';
 
 const About = () => (
   <div className='card-about'>
-    <h2 className='about-title'>About</h2>
+    <h2 className='heading about-title'>About</h2>
     <p>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
-      tempore odio, vero totam quod ducimus veniam quisquam molestias amet
-      minima dolorem et hic voluptate consectetur maxime repellat distinctio
-      quibusdam laborum?
+      I am a frontend developer with a particular interest in making things
+      simple and automating daily tasks. I try to keep up with security and best
+      practices, and am always looking for new things to learn.
     </p>
   </div>
 );
