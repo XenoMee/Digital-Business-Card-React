@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => (
   <footer className='footer'>
-    <ul className='social-list'>
+    <ul className='social-list flex-group'>
       <li className='social-item'>
         <a className='social-link' href=''>
           <i className='fa-brands fa-square-x-twitter'></i>
