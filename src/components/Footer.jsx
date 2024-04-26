@@ -10,7 +10,7 @@ const Footer = () => (
       </li>
       <li className='social-item'>
         <a className='social-link' href=''>
-          <i className='fa-brands fa-facebook'></i>
+          <i className='fa-brands fa-square-facebook'></i>
         </a>
       </li>
       <li className='social-item'>
