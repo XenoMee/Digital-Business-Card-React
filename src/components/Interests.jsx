@@ -2,12 +2,10 @@ import React from 'react';
 
 const Interests = () => (
   <div className='card-interests'>
-    <h2 className='interests-title'></h2>
+    <h2 className='heading interests-title'>Interests</h2>
     <p>
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum dolor cumque
-      ducimus blanditiis quas debitis voluptate quibusdam rem corporis quaerat
-      vero impedit repudiandae, aspernatur nisi soluta unde, dolores fugit
-      repellendus.
+      Food expert. Music scholar. Reader. Internet fanatic. Bacon buff.
+      Entrepreneur. Travel geek. Pop culture ninja. Coffee fanatic.
     </p>
   </div>
 );
