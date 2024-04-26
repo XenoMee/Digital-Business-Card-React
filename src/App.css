@@ -1,46 +1,87 @@
-:root {
-  /* Colors */
-  --clr-body: hsl(227, 11%, 15%);
-  --clr-bg-content: hsl(231, 12%, 12%);
-  --clr-bg-footer: hsl(231, 7%, 9%);
-  --clr-bg-icon: hsl(254, 6%, 58%);
-  --clr-text: hsl(0, 0%, 86%);
-
-  --clr-primary: hsl(0, 0%, 100%);
-  --clr-accent-1: hsl(25, 79%, 78%);
-  --clr-accent-2: hsl(212, 72%, 60%);
-
-  /* Font Family */
-  --ff-base: 'Inter', sans-serif;
-
-  /* Font Weight */
-  --fw-regular: 400;
-  --fw-medium: 500;
-  --fw-bold: 700;
-
-  /* Font size */
-  --fs-100: 0.875rem;
-  --fs-200: 0.9375rem;
-  --fs-300: 1rem;
-  --fs-400: 1.25rem;
-  --fs-500: 1.5rem;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --clr-bg-content: hsl(0, 0%, 96%);
-    --clr-bg-footer: hsl(255, 5%, 84%);
-    --clr-text: hsl(224, 22%, 37%);
-
-    --clr-primary: hsl(250, 18%, 19%);
-    --clr-accent-1: hsl(25, 90%, 55%);
-    --clr-accent-2: hsl(212, 78%, 53%);
-  }
-}
-
 /* Typography */
+.user-name {
+  font-size: var(--fs-500);
+  font-weight: var(--fw-bold);
+}
+
+.user-job {
+  display: block;
+  font-size: var(--fs-400);
+  color: var(--clr-accent-1);
+  margin-bottom: 0.5rem;
+}
+
+.user-website {
+  font-size: var(--fs-100);
+  color: var(--clr-text);
+}
 
 /* Layout */
+.card {
+  max-width: 20rem;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.main-content {
+  --content-spacing: 2rem 2.5rem;
+  background-color: var(--clr-bg-content);
+  padding: var(--content-spacing);
+}
+
+.card-info {
+  text-align: center;
+  justify-items: center;
+}
+
+.contact-info {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn {
+  background-color: var(--clr-primary);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: var(--fs-200);
+  gap: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.icon {
+  margin-top: 0.15rem;
+}
+
+.email-btn {
+  color: #1e1f26;
+  padding: 0.5rem 1.5rem;
+}
+
+.linkedin-btn {
+  color: #fff;
+  background-color: var(--clr-accent-2);
+}
+
+.heading {
+  color: var(--clr-primary);
+}
+
+.footer {
+  background-color: var(--clr-bg-footer);
+  padding: 1rem;
+}
+
+.social-list {
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-link {
+  color: var(--clr-bg-icon);
+  font-size: var(--fs-600);
+}
 
 /* Utility classes */
 .flex-group {
@@ -51,4 +92,12 @@
 .grid-flow {
   display: grid;
   gap: 1rem;
+}
+
+.grid-flow[data-spacing='medium'] {
+  gap: 1.5rem;
+}
+
+.grid-flow[data-spacing='large'] {
+  gap: 2rem;
 }
