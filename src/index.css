@@ -89,7 +89,7 @@ h6 {
 /*
 General
 */
-/* body {
+body {
   background-color: var(--clr-body);
   color: var(--clr-text);
   font-family: var(--ff-base);
@@ -104,4 +104,4 @@ General
 
 h2 {
   margin-bottom: 0.3rem;
-} */
+}
