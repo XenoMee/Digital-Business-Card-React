@@ -14,12 +14,12 @@ const App = () => (
       src={profilePicture}
       alt='User profile picture'
     />
-    {/* <div className='main-content grid-flow' data-spacing='large'>
+    <div className='main-content grid-flow' data-spacing='large'>
       <Info />
       <About />
       <Interests />
     </div>
-    <Footer /> */}
+    <Footer />
   </div>
 );
 
